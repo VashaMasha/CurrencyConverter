@@ -1,3 +1,5 @@
+Android .apk: [CurrencyConverter.apk.zip](https://github.com/VashaMasha/CurrencyConverter/files/15079051/CurrencyConverter.apk.zip)
+
 ## Step 1: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
@@ -37,6 +39,10 @@ yarn ios
 ```
 
 ### User flow
+<div align="center">
+<img src="https://github.com/VashaMasha/CurrencyConverter/assets/36168154/080e1188-8dd7-4421-b90b-9a78b8108072" width="300">
+<img src="https://github.com/VashaMasha/CurrencyConverter/assets/36168154/0f10e8a2-1cef-461c-a8df-cd2fbc93da48" width="300">
+</div>
 
 1. By default, input fields on the main screen are set to 1, and currencies are "-". I did this because there is no data about the price at this step. I could use https://api.cryptorank.io/v1/currencies with the "symbol" parameter to show some default values, but sorting by symbol does not work on the backend side.
 
